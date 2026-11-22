@@ -43,6 +43,64 @@
       ],
       "ast": [
         "aggregate/ast/5c8fa12eb584931b4f1bccfde87eb72fbfa7dc61/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/5c8fa12eb584931b4f1bccfde87eb72fbfa7dc61.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "fastrand",
+          "ecosystem": "CARGO",
+          "version": "2.1.1",
+          "githubOrg": "smol-rs",
+          "githubRepo": "fastrand",
+          "githubCommit": "9d1a66fe46cee30e6c716812a9df467c653fa290",
+          "githubTag": "v2.1.1",
+          "githubUrl": "https://github.com/smol-rs/fastrand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "once_cell",
+          "ecosystem": "CARGO",
+          "version": "1.19.0",
+          "githubOrg": "matklad",
+          "githubRepo": "once_cell",
+          "githubCommit": "c48d3c2c01de926228aea2ac1d03672b4ce160c1",
+          "githubTag": "v1.19.0",
+          "githubUrl": "https://github.com/matklad/once_cell",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "doc-comment",
+          "ecosystem": "CARGO",
+          "version": "0.3",
+          "githubOrg": "GuillaumeGomez",
+          "githubRepo": "doc-comment",
+          "githubUrl": "https://github.com/GuillaumeGomez/doc-comment",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "getrandom",
+          "ecosystem": "CARGO",
+          "version": "0.4.3",
+          "githubOrg": "rust-random",
+          "githubRepo": "getrandom",
+          "githubCommit": "5e7cd5733536844a9856dc7259bd4696bbe5e3ae",
+          "githubTag": "v0.4.3",
+          "githubUrl": "https://github.com/rust-random/getrandom",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.4.3/src/lib.rs"
+        },
+        {
+          "packageName": "rustix",
+          "ecosystem": "CARGO",
+          "version": "1.1.6",
+          "githubOrg": "bytecodealliance",
+          "githubRepo": "rustix",
+          "githubCommit": "4a563ad698b2c20ff848515821023d2265a788d0",
+          "githubTag": "v1.1.6",
+          "githubUrl": "https://github.com/bytecodealliance/rustix",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustix-1.1.6/src/fs/abs.rs"
+        }
       ]
     }
   ],
